@@ -1,0 +1,94 @@
+.grid-container{
+	display: grid;
+	background-color: #2e004d;
+	grid-template-columns: auto auto auto auto auto auto;
+	border-radius: 40px;
+}
+
+h3{
+	background-color: #00cc66;
+	border-radius: 100px;
+	padding: 20px 30px;
+	color: white;
+	grid-column: 3/5;
+	text-align: center;
+	font-family: 'Ubuntu', cursive;
+	font-size: 50px;
+}
+
+body{
+	background-color: #4c0080;
+}
+
+button{
+	background-color: #cc80ff;
+	border-color: transparent;
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Ubuntu';
+	font-size: 30px;
+	font-weight: bold;
+	outline: 0;
+}
+button:focus{
+	background-color: #cc80ff;
+	border-color: transparent;
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Ubuntu';
+	font-size: 30px;
+	font-weight: bold;
+	outline: 0;
+}
+
+button:hover{
+	background-color: #c266ff;
+	border-color: transparent;
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Ubuntu';
+	font-size: 30px;
+	font-weight: bold;
+	outline: 0;
+}
+
+button:active{
+	background-color: #b84dff;
+	border-color: transparent;
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Ubuntu';
+	font-size: 30px;
+	font-weight: bold;
+	outline: 50px;
+}
+
+td{
+	background-color: #cc80ff;
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Ubuntu';
+	font-size: 30px;
+	font-weight: bold;
+}
+
+table{
+	grid-row: 5/8;
+	grid-column: 3/5;
+	border-spacing: 12px;
+	border-collapse: separate;
+	margin: auto;
+	margin-top: 70px;
+	background-color: #7700cc;
+	border-radius: 5px;
+}
